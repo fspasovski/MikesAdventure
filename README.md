@@ -124,17 +124,17 @@ public void generateBlocks()
 ![Alt text](/Screenshots/menu.PNG?raw=true)
 Слика 1. Главно Мени
 
-![Alt text](/Screenshots/instructions.PNG?raw=true)
+![Alt text](/Screenshots/instructions.PNG?raw=true)<br/>
 Слика 2. Инструкции
 
-![Alt text](/Screenshots/gameplay.PNG?raw=true)
+![Alt text](/Screenshots/gameplay.PNG?raw=true)<br/>
 Слика 3. Level 1 
  
-![Alt text](/Screenshots/bossFight1.PNG?raw=true)
+![Alt text](/Screenshots/bossFight1.PNG?raw=true)<br/>
 Слика 4. Борба со Maiev
   
-![Alt text](/Screenshots/bossFight2.PNG?raw=true)
+![Alt text](/Screenshots/bossFight2.PNG?raw=true)<br/>
 Слика 5. Борба со Maiev
 
-![Alt text](/Screenshots/bossFight3.PNG?raw=true)
+![Alt text](/Screenshots/bossFight3.PNG?raw=true)<br/>
 Слика 6. Борба со Maiev
