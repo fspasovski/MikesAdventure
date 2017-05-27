@@ -20,7 +20,7 @@ namespace MikesAdventure
             EyesColor = Color.Black;
             InitializeComponent();
             SoundPlayer sp = new SoundPlayer();
-            sp.SoundLocation = ".//.//.//Sounds////song.wav";
+            sp.SoundLocation = "..//..//Sounds////song.wav";
             sp.Load();
             sp.PlayLooping();
             ddlHeadColor.Items.Add(Color.Red);
