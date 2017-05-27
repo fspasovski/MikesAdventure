@@ -1,5 +1,4 @@
 # MikesAdventure
-vpProject
 
 Документација за проектот: Mike’s Adventure
 
@@ -45,7 +44,7 @@ Mike’s Adventure претставува едноставна аркадна и
 Опис на класата Obstacle.cs и функцијата State.generateBlocks()
 
 Со помош на класата Obstacle.cs се претставуваат препреките во оваа игра.
-`[Serializable]
+[Serializable]
     public class Obstacle
     {
         public int A { get; set; } // width
@@ -55,7 +54,7 @@ Mike’s Adventure претставува едноставна аркадна и
         public Color Color { get; set; } // color of the obstacle
         public string Type { get; set; } // type of the obstacle
 
-    }`
+    }
 Препреките се всушност правоаголници кои истовремено се придвижуваат надоле со цел да го присилат Mike да ги избегне.  Секоја препрека 
 има своја ширина, висина, боја и позиција на која моментално се наоѓа. Минувањето низ препреките е имплементирано на следниов начин:
 Покрај наведените особини секоја препрека има тип и property кое означува дали е вредна или пак не. Објектите од класата со 
@@ -90,11 +89,11 @@ public void generateBlocks()
             int width2 = random.Next(20, (WINDOW_WIDTH - w1 - gap2 - gap1) * 80 / 100);
             int width3 = WINDOW_WIDTH - w1 - w2 - gap1 - gap2;
 
-AddObstacle(new Obstacle(new Point(w1 / 2, 30), "Obstacle", Color.SaddleBrown, w1, BLOCK_HEIGHT));
-AddObstacle(new Obstacle(new Point(w1 + gap1 / 2, 10), "Point" + pointID, Color.Transparent, gap1, BLOCK_HEIGHT / 3));
-AddObstacle(new Obstacle(new Point(w1 + gap1 + w2 / 2, 30), "Obstacle", Color.SaddleBrown, w2, BLOCK_HEIGHT));
-AddObstacle(new Obstacle(new Point(w1 + gap1 + w2 + gap2 / 2, 10), "Point" + pointID, Color.Transparent, gap2, BLOCK_HEIGHT / 3));
-AddObstacle(new Obstacle(new Point(w1 + gap1 + w2 + gap2 + w3 / 2, 30), "Obstacle", Color.SaddleBrown, w3, BLOCK_HEIGHT));
+            AddObstacle(new Obstacle(new Point(w1 / 2, 30), "Obstacle", Color.SaddleBrown, w1, BLOCK_HEIGHT));
+            AddObstacle(new Obstacle(new Point(w1 + gap1 / 2, 10), "Point" + pointID, Color.Transparent, gap1, BLOCK_HEIGHT / 3));
+            AddObstacle(new Obstacle(new Point(w1 + gap1 + w2 / 2, 30), "Obstacle", Color.SaddleBrown, w2, BLOCK_HEIGHT));
+            AddObstacle(new Obstacle(new Point(w1 + gap1 + w2 + gap2 / 2, 10), "Point" + pointID, Color.Transparent, gap2, BLOCK_HEIGHT / 3));
+            AddObstacle(new Obstacle(new Point(w1 + gap1 + w2 + gap2 + w3 / 2, 30), "Obstacle", Color.SaddleBrown, w3, BLOCK_HEIGHT));
         }
         pointID++;
     }
@@ -112,5 +111,5 @@ Mike се движи во четири насоки: горе, доле, лев�
 
 Screenshots
 
-
+![Alt text](/Screenshots/menu.PNG?raw=true)
 
