@@ -121,7 +121,7 @@ public void generateBlocks()
 
 ## Screenshots
 
-![Alt text](/Screenshots/menu.PNG?raw=true)
+![Alt text](/Screenshots/menu.PNG?raw=true)<br/>
 Слика 1. Главно Мени
 
 ![Alt text](/Screenshots/instructions.PNG?raw=true)<br/>
